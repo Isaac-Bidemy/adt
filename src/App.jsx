@@ -8,7 +8,6 @@ import OurStory from './pages/OurStory'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Login from './pages/Login'
-import Signup from './pages/signup'
 import Cart from './pages/Cart'
 import ProductDetails from './pages/ProductDetails'
 import Adetutu from './pages/Adetutu'
@@ -30,7 +29,6 @@ function App() {
     <Route path='/blog' element={<Blog/>}/>
     <Route path='/contact' element={<Contact />}/>
     <Route path='/login' element={<Login />}/>
-    <Route path='/login' element={<Signup />}/>
     <Route path='/cart' element={<Cart/>}/>
     <Route path='/Adetutu' element={<Adetutu />}/>
     <Route path='/products/:id' element={<ProductDetails/>}/>
