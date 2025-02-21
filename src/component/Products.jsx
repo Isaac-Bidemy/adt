@@ -1,6 +1,8 @@
 import React from 'react'
 import { products } from '../datas/productData';
 import { Link } from 'react-router-dom';
+import {CartContext} from '../context/CartContext'
+import {useContext} from 'react'
 
 export default function product() {
   return (
@@ -29,7 +31,7 @@ export default function product() {
                 {product.normalPrice}
               </p>
               <Link to={`/products/${product.id}`}>
-              <button className='bg-black p-2 text-white'>veiw details</button>
+              <button onClick={() => addToCart(product)} className='bg-blue-500 text-white px-2 py-1 mt-2'>Add To Cart</button>
               </Link>
             </div>
           </Link>

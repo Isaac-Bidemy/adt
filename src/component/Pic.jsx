@@ -1,65 +1,44 @@
 import React from 'react'
 
 export default function Pic() {
-    return (
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8  ">
-          <h2 className="text-3xl font-bold mb-4  ">3x3 Gallery</h2>
-          <div className="grid grid-cols-3 gap-4 border-4 ">
-            {Array.from({ length: 9 }).map((_, index) => (
-              <div
-                key={index}
-                className="
-                  relative 
-                  bg-gray-200 
-                  hover:scale-110 
-                  transition-transform 
-                  duration-500 
-                  ease-in-out
-                "
-              >
-                <img
-                  src={`https://picsum.photos/200/300?random=${index}`}
-                  alt={`Image ${index + 1}`}
-                  className="w-full h-60 object-cover"
-                />
-                <div
-                   className="
-                   text-sm 
-                   font-bold 
-                   mb-4 
-                   bg-gray-900 
-                   bg-opacity-50 
-                   text-white 
-                   p-2 
-                   hover:scale-110
-                   hover:h-8 
-                   transition-transform 
-                   duration-500 
-                   ease-in-out
-                 "
-                >
-                  <p>Next.js: The Complete Guide {index + 1}</p>
-                  <p>next.js {index + 1}</p>
-                </div>
-                <div
-                  className="
-                    text-3xl 
-              font-bold 
-              mb-4 
-              bg-white
-              bg-opacity-50 
-              text-black
-              p-2 
-              hover:scale-110 
-              h-10
-              transition-transform 
-              duration-500 
-              ease-in-out
-                  "
-                />
-              </div>
-            ))}
-          </div>
+  return (
+    <div className="flex flex-col gap-3">
+      <div className="flex items-center gap-2">
+        <label className="whitespace-nowrap font-semibold">Search Term:</label>
+        <div className="relative w-full">
+          <input
+            type="text"
+            id="searchTerm"
+            placeholder="Search..."
+            className="block w-full border disabled:cursor-not-allowed disabled:opacity-50 bg-gray-50 border-gray-300 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+          />
         </div>
-      );
-    }
+      </div>
+      <div className="flex items-center gap-2">
+        <label className="font-semibold">Sort:</label>
+        <div className="relative w-full">
+          <select
+            id="sort"
+            className="block w-full border disabled:cursor-not-allowed disabled:opacity-50 bg-gray-50 border-gray-300 text-gray-900 focus:border-cyan-500 focus:ring-cyan-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-cyan-500 dark:focus:ring-cyan-500 p-2.5 text-sm rounded-lg"
+          >
+            {/* options */}
+          </select>
+        </div>
+      </div>
+      <div className="flex items-center gap-2">
+        <label className="font-semibold">Category:</label>
+        <div className="relative w-full">
+          {/* category options */}
+        </div>
+      </div>
+      <button
+        type="submit"
+        className="group flex items-center justify-center p-0.5 text-center font-medium relative focus:z-10 focus:outline-none text-white bg-gradient-to-r from-purple-500 to-pink-500 enabled:hover:bg-gradient-to-l focus:ring-purple-200 dark:focus:ring-purple-800 border-0 rounded-lg focus:ring-2"
+      >
+        <span className="items-center flex justify-center bg-white text-gray-900 transition-all duration-75 ease-in group-enabled:group-hover:bg-opacity-0 group-enabled:group-hover:text-inherit dark:bg-gray-900 dark:text-white w-full rounded-lg text-sm px-4 py-2 border border-transparent">
+          Apply Filters
+        </span>
+      </button>
+    </div>
+  );
+};

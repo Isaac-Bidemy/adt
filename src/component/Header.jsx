@@ -8,18 +8,19 @@ export default function Header() {
   return (
     <nav>
         <div className='flex justify-around shadow-md py-6 items-center'>
-        <div>  <Link to="/" className='text-2xl font-semibold' >Rush</Link></div>
+        <div>  <Link to="/" className='text-2xl font-semibold' >ADETUTU</Link></div>
           <div className='flex justify-between space-x-4 text-x font-semibold items-center'>
           <Link to="/">Home</Link>
 
           <div className='flex items-center'>
-          <Link to="/shop">Shop </Link>
-          <Link><RiArrowDropDownLine size={25}/></Link>
+          <Link to="/shop"></Link>
+          {/*<Link><RiArrowDropDownLine size={25}/></Link>*/}
          </div>
 
           <Link to="/ourstory">Our Story</Link>
-          <Link to="/blog">Blog</Link>
+          <Link to="/blog"></Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/cart" className='hover:text-blue-700'></Link>
             </div>
           
           <div  className='flex space-x-4 items-center'>
@@ -28,7 +29,7 @@ export default function Header() {
           <FiHeart />
           <HiOutlineShoppingBag />
           </div>
-            <Link className='bg-black text-white text-xs px-4 py-2 rounded-t-lg' to="/Singup">LOGIN</Link>
+            <Link className='bg-black text-white text-xs px-4 py-2 rounded-t-lg' to="/Login">SIGNOUT</Link>
           </div>
         </div>
 

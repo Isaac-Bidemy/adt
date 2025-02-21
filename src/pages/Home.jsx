@@ -1,20 +1,23 @@
 import React from 'react'
 import HeroSection from '../component/HeroSection'
-import Categories from '../component/Categories'
+
 import Products from '../component/Products'
 import DealsOfMonths from '../component/DealsOfMonths'
 import Pic from '../component/Pic'
 import Pic2 from '../component/Pic2'
 import RecentPost from '../component/RecentPost'
+import BlurredBackground from '../component/BlurredBackground'
+import Login from './Login'
+
 
 export default function Home() {
   return (
     <div>
-      <HeroSection />
-      <Categories />
-      <Products />
+      {/*<HeroSection />*/}
+       {/*<Products />*/}
       <DealsOfMonths />
-      <RecentPost />
+      <BlurredBackground />
+    
 
     </div>
   )
