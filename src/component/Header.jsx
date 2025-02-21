@@ -13,7 +13,7 @@ export default function Header() {
           <Link to="/">Home</Link>
 
           <div className='flex items-center'>
-          <Link to="/shop"></Link>
+          
           {/*<Link><RiArrowDropDownLine size={25}/></Link>*/}
          </div>
 
