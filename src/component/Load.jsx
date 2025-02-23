@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 export default function Load() {
  return (
      <div className='flex justify-between items-start p-8 border-y-4 rounded-lg'>
-       <img className='w-1/3 w-full-auto object-contain border-y-4 rounded-lg' src='src\assets\images\marry.jpg'></img>
+       <img className='w-1/3 w-full-auto object-contain border-y-4 rounded-lg' src='src\assets\images\tu3.jpg'></img>
        <div className='w-2/3 flex flex-col items-center space-y-4'>
        <h2 className='font-bold text-xl'> Welcome </h2>
        <h3 className='font-semibold'> Please Login in Here</h3>
