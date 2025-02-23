@@ -42,7 +42,7 @@ export default function LoveStory() {
 
 As I got to know you better, I realized that you're not just an amazing person - you're the missing piece to my puzzle. You're the one who makes me feel whole, who brings light into my darkness, and who gives me a reason to wake up every morning.
 
-Your touch ignites a fire within me, a flame that burns brighter with every passing day. Your kisses leave me breathless, your hugs make me feel safe, and your love gives me the strength to face anything that life throws my way.
+Your touch ignites a fire within me, a flame that burns brighter with every passing day.
 
 You're the melody that fills my heart with joy, the rhythm that makes me want to dance, and the harmony that brings balance to my life. You're the sunshine that brightens up my day, the stars that light up my night, and the moon that guides me through life's ups and downs.
 
@@ -50,7 +50,7 @@ I love the way you make me laugh, the way you challenge me to be my best self, a
 
 I love you for who you are, and for who you help me to be. I love you for your strengths and your weaknesses, for your passions and your fears. I love you for your beauty, inside and out, and for the way you make me feel like I'm home.
 
-Ade Tutu, I don't know what the future holds, but I do know that I want to spend it with you. I want to wake up every morning with you by my side, to explore the world with you, and to build a life together that's filled with love, laughter, and adventure.
+AdeTutu, I don't know what the future holds, but I do know that I want to spend it with you. I want to wake up every morning with you by my side, to explore the world with you, and to build a life together that's filled with love, laughter, and adventure.
 
 I love you more than words can express, more than any poem or song or work of art can capture. I love you with all my heart, with all my soul, and with every fiber of my being.
 

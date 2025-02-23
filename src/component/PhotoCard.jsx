@@ -9,7 +9,7 @@ export default function PhotoCard() {
     <div className="max-w-6xl mb-68 mx-auto grid grid-cols-4 mt-9 gap-10">
       <div className="bg-white rounded-lg shadow-md">
         <img
-          src={tutu}
+          src={tu2}
           alt="Image 1"
           className="w-full h-48 object-cover rounded-t-lg"
         />
@@ -22,7 +22,7 @@ export default function PhotoCard() {
       </div>
       <div className="bg-white rounded-lg shadow-md">
         <img
-          src={tu2}
+          src={b2}
           alt="Image 2"
           className="w-full h-48 object-cover rounded-t-lg"
         />
@@ -35,7 +35,7 @@ export default function PhotoCard() {
       </div>
       <div className="bg-white rounded-lg shadow-md">
         <img
-          src={b2}
+          src={tu1}
           alt="Image 3"
           className="w-full h-48 object-cover rounded-t-lg"
         />
@@ -48,7 +48,7 @@ export default function PhotoCard() {
       </div>
       <div className="bg-white rounded-lg shadow-md">
         <img
-          src={tu1}
+          src={tu2}
           alt="Image 4"
           className="w-full h-48 object-cover rounded-t-lg"
         />
