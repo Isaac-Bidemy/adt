@@ -1,4 +1,8 @@
 import React from 'react';
+import tutu from '../assets/images/tutu.jpg';
+import tu2 from '../assets/images/tu2.jpg';
+import b2 from '../assets/images/b2.jpg';
+import tu1 from '../assets/images/tu1.jpg';
 
 export default function PhotoCard1() {
   return (
@@ -8,7 +12,7 @@ export default function PhotoCard1() {
         {/* Photo Card 1 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
           <img
-            src="src/assets/images/tu2.jpg"
+            src={tutu}
             alt="Grace"
             className="w-full h-56 object-cover"
           />
@@ -21,7 +25,7 @@ export default function PhotoCard1() {
         {/* Photo Card 2 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
           <img
-            src="src/assets/images/t1.jpg"
+            src={tu2}
             alt="Olamide"
             className="w-full h-56 object-cover"
           />
@@ -34,7 +38,7 @@ export default function PhotoCard1() {
         {/* Photo Card 3 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
           <img
-            src="src/assets/images/tu1.jpg"
+            src={b2}
             alt="Kikelomo"
             className="w-full h-56 object-cover"
           />
@@ -47,7 +51,7 @@ export default function PhotoCard1() {
         {/* Photo Card 4 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden transform transition duration-500 hover:scale-105">
           <img
-            src="src/assets/images/tutu.jpg"
+            src={tu1}
             alt="Odunayo"
             className="w-full h-56 object-cover"
           />
