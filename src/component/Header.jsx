@@ -8,23 +8,23 @@ export default function Header() {
   return (
     <nav>
         <div className='flex justify-around shadow-md py-6 items-center'>
-        <div>  <Link to="/" className='text-2xl font-semibold' >ADETUTU</Link></div>
-          <div className='flex justify-between space-x-4 text-x font-semibold items-center'>
-          <Link to="/">Home</Link>
+        <div>  <Link to="/" className='text-2xl font-semibold ' >ADETUTU</Link></div>
+          <div className='flex justify-between space-x-4 text-x font-semibold items-center '>
+          <Link to="/" className=' hover:bg-gray-300  rounded-md'>Home</Link>
 
-          <div className='flex items-center'>
+          <div className='flex items-center '>
           
           {/*<Link><RiArrowDropDownLine size={25}/></Link>*/}
          </div>
 
-          <Link to="/ourstory">Our Story</Link>
+          <Link to="/ourstory"></Link>
           <Link to="/blog"></Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" className=' hover:bg-gray-300  rounded-md'>Contact</Link>
           <Link to="/cart" className='hover:text-blue-700'></Link>
             </div>
           
           <div  className='flex space-x-4 items-center'>
-          <div className='flex space-x-4 items-center'>
+          <div className='flex space-x-4 items-center '>
             <LuSearch />
           <FiHeart />
           <HiOutlineShoppingBag />

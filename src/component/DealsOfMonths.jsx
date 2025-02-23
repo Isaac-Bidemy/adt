@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import img from "../assets/images/dol.jpg"
+import img from "../assets/images/couples.jpg"
 import { FaArrowRightLong } from "react-icons/fa6";
 export default function DealsOfMonths() {
     return (
@@ -16,25 +16,25 @@ With love and appreciation
                 </p>
                 <div className='flex mb-4 space-x-3'>
                     <div className='shadow-md p-2 text-center '>
-                        <h2 className='font-bold'>5Q</h2>
+                        <h2 className='font-bold'>KIKELOMO</h2>
                         <h4 className='text-xs font-semibold'>I</h4>
                     </div>
                     <div className='shadow-md p-2 text-center'>
-                        <h2 className='font-bold'>5Q</h2>
+                        <h2 className='font-bold'>ODUNAYO</h2>
                         <h4 className='text-xs font-semibold'>LOVE</h4>
                     </div>
                     <div className='shadow-md p-2 text-center '>
-                        <h2 className='font-bold'>=</h2>
+                        <h2 className='font-bold'>OLAMIDE</h2>
                         <h4 className='text-xs font-semibold'>YOU</h4>
                     </div>
                     <div className='shadow-md p-2 text-center '>
-                        <h2 className='font-bold'>10Q</h2>
+                        <h2 className='font-bold'>GRACE</h2>
                         <h4 className='text-xs font-semibold'>ADETUTU</h4>
                     </div>
                     
                 </div>
-                <div className='flex justify-left'>
-                    <Link className='flex item-center gap-2 bg-black text-white text-xs px-4 py-2 rounded-lg' to="/OurStory">
+                <div className='flex justify-left '>
+                    <Link className='flex item-center gap-2 bg-black text-white text-xs px-4 py-2 rounded-lg  hover:bg-gray-300  rounded-md' to="/Login">
                         OUR LOVE STORY  <span> <FaArrowRightLong /></span>
                     </Link>
                 </div>

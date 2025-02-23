@@ -1,10 +1,17 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 export default function LoveStory() {
   return (
-    <div className="max-w-2xl mx-auto p-4 bg-white rounded-md shadow-md">
+    
+    <div className="max-w-2xl mx-auto p-4 bg-white  justify-center mt-12 rounded-2xl  shadow-md">
+      <div> 
+      <Link to="/Adetutu"><button
+           className="w-full bg-gray-500 text-white py-2 px-4 rounded-md hover:bg-black"
+         > ADETUTU</button></Link>
+         </div>
       <h1 className="text-3xl font-bold mb-4">My Love Story</h1>
       <p className="text-lg text-gray-600 mb-4">
+     
         The very first moment I set my eyes on you, Adetutu, I knew that you were the one for me.
       </p>
       <h2 className="text-2xl font-bold mb-4">You Are My World</h2>
@@ -50,7 +57,9 @@ I love you more than words can express, more than any poem or song or work of ar
 Yours always,
 [ISAAC-BIDEMY]
 
-      </p>
+</p>
+      
+         
     </div>
   );
 }
