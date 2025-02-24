@@ -29,9 +29,10 @@ export default function Header() {
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 text-sm font-semibold">
           <Link to="/" className="hover:bg-gray-300 px-2 py-1 rounded-md">Home</Link>
-          <Link to="/ourstory" className="hover:bg-gray-300 px-2 py-1 rounded-md">Our Story</Link>
-          <Link to="/blog" className="hover:bg-gray-300 px-2 py-1 rounded-md">Blog</Link>
           <Link to="/contact" className="hover:bg-gray-300 px-2 py-1 rounded-md">Contact</Link>
+          <Link to="/ourstory" className="hover:bg-gray-300 px-2 py-1 rounded-md"></Link>
+          <Link to="/blog" className="hover:bg-gray-300 px-2 py-1 rounded-md"></Link>
+          
         </div>
 
         {/* Icons & Sign Out */}
@@ -50,7 +51,7 @@ export default function Header() {
           <Link to="/contact" className="hover:bg-gray-300 px-4 py-2 rounded-md">Contact</Link>
           <Link to="/ourstory" className="hover:bg-gray-300 px-4 py-2 rounded-md"></Link>
           <Link to="/blog" className="hover:bg-gray-300 px-4 py-2 rounded-md"></Link>
-          
+         
           <div className="flex space-x-4">
             <LuSearch />
             <FiHeart />
