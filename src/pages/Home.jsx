@@ -11,6 +11,7 @@ import LoveStoryyyy from '../component/LoveStoryyyy'
 import LoveStory from '../component/LoveStory'
 import LoveStory1 from '../component/LoveStory1'
 import LoveStory2 from '../component/LoveStory2'
+import Photoc from '../component/Photoc'
 
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
       {/*<HeroSection />*/}
        
       <DealsOfMonths />
-    
+    <Photoc />
       <BlurredBackground />
       <LoveStory1 />
       <LoveStory2 />
