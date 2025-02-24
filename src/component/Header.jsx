@@ -47,9 +47,10 @@ export default function Header() {
       {isOpen && (
         <div className="md:hidden flex flex-col items-center space-y-4 pb-6">
           <Link to="/" className="hover:bg-gray-300 px-4 py-2 rounded-md">Home</Link>
+          <Link to="/contact" className="hover:bg-gray-300 px-4 py-2 rounded-md">Contact</Link>
           <Link to="/ourstory" className="hover:bg-gray-300 px-4 py-2 rounded-md"></Link>
           <Link to="/blog" className="hover:bg-gray-300 px-4 py-2 rounded-md"></Link>
-          <Link to="/contact" className="hover:bg-gray-300 px-4 py-2 rounded-md">Contact</Link>
+          
           <div className="flex space-x-4">
             <LuSearch />
             <FiHeart />
