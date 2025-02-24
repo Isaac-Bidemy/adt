@@ -6,7 +6,7 @@ import tu1 from '../assets/images/tu1.jpg';
 
 export default function PhotoCard() {
   return (
-    <div className="max-w-6xl mb-68 mx-auto grid grid-cols-4 mt-9 gap-10">
+    <div className="max-w-6xl mx-auto mt-9 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
       <div className="bg-white rounded-lg shadow-md">
         <img
           src={tu2}
@@ -20,6 +20,7 @@ export default function PhotoCard() {
           </p>
         </div>
       </div>
+
       <div className="bg-white rounded-lg shadow-md">
         <img
           src={b2}
@@ -33,6 +34,7 @@ export default function PhotoCard() {
           </p>
         </div>
       </div>
+
       <div className="bg-white rounded-lg shadow-md">
         <img
           src={tu1}
@@ -46,6 +48,7 @@ export default function PhotoCard() {
           </p>
         </div>
       </div>
+
       <div className="bg-white rounded-lg shadow-md">
         <img
           src={tu2}
